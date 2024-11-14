@@ -70,3 +70,4 @@ def predict(client_data: ClientData):
         }
     except Exception as e:
         return {"error": f"Internal Server Error: {str(e)}"}
+    
